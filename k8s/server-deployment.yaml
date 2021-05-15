@@ -33,5 +33,4 @@ spec:
             - name: POSTGRES_PASSWORD
               value: postgres_password
             - name: PGPASSWORD
-              value: postgres_password              
-                ß
+              value: postgres_password                              
