@@ -13,7 +13,7 @@ app.use(bodyParser.json());
 const { Pool } = require('pg');
 const pgClient = new Pool({
   user: 'postgres',
-  host: 'postgres',
+  host: 'postgres-cluster-ip-service',
   database: 'postgres',
   password: 'postgres_password',
   port: 5432,
